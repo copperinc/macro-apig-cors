@@ -1,10 +1,11 @@
 {
-  "name": "macro-iot-rules-demo",
+  "name": "macro-apig-cors-demo",
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
   "dependencies": {
-    "@architect/architect": "^8.4.7"
+    "@architect/architect": "^8.4.7",
+    "macro-apig-cors": "github:copperinc/macro-apig-cors"
   },
   "devDependencies": {},
   "scripts": {
