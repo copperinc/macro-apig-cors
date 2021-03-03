@@ -1,5 +1,5 @@
 {
-  "name": "macro-apig-cors",
+  "name": "@copper/macro-apig-cors",
   "version": "1.0.0",
   "description": "Architect (arc.codes) serverless framework macro that customizes the generated HTTP API Gateway CORS settings",
   "main": "index.js",
@@ -20,6 +20,10 @@
     "url": "https://github.com/copperinc/macro-apig-cors/issues"
   },
   "homepage": "https://github.com/copperinc/macro-apig-cors#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/copperinc/macro-apig-cors.git"
+  },
   "devDependencies": {
     "@architect/eslint-config": "^1.0.0",
     "eslint": "^7.19.0",
