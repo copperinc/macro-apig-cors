@@ -4,7 +4,9 @@
   "description": "Architect (arc.codes) serverless framework macro that customizes the generated HTTP API Gateway CORS settings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:unit": "jasmine --config=test/jasmine.json",
+    "lint": "eslint",
+    "test": "npm run lint && npm run test:unit"
   },
   "keywords": [
     "serverless",
@@ -20,7 +22,8 @@
   "homepage": "https://github.com/copperinc/macro-apig-cors#readme",
   "devDependencies": {
     "@architect/eslint-config": "^1.0.0",
-    "eslint": "^7.19.0"
+    "eslint": "^7.19.0",
+    "jasmine": "^3.6.4"
   },
   "eslintConfig": {
     "extends": "@architect/eslint-config",
