@@ -12,12 +12,12 @@ this macro!
 
 ## Installation
 
-1. Run: `npm i copperinc/macro-apig-cors`
+1. Run: `npm i @copper/macro-apig-cors`
 
 2. Then add the following line to the `@macros` pragma in your Architect project manifest (usually `app.arc`):
 
         @macros
-        macro-apig-cors
+        @copper/macro-apig-cors
 
 3. Add a `@cors` pragma, and under this pragma, each line corresponds to a
    specific [HTTP API Gateway CORS setting][apig-cors] (for the full reference,
