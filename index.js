@@ -14,7 +14,6 @@ module.exports = (arc, cfn /* , stage, inventory*/ ) => {
             }
         });
         cfn.Resources.HTTP.Properties.CorsConfiguration = params;
-        console.log('macro-apig-cors set API Gateway CORS settings to:', JSON.stringify(params, null, 2));
     }
     return cfn;
 };
